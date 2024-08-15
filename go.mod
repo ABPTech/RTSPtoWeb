@@ -65,3 +65,14 @@ require (
 	google.golang.org/protobuf v1.34.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+
+replace github.com/deepch/vdk => ./local/vdk
+replace github.com/sirupsen/logrus => ./local/logrus
+replace github.com/gin-gonic => ./local/gin
+replace github.com/imdario/mergo => ./local/mergo
+replace github.com/hashicorp/go-version => ./local/go-version
+replace github.com/gobwas/ws => ./local/ws
+replace github.com/liip/sheriff => ./local/sheriff
+
+
